@@ -9,11 +9,11 @@
 </script>
 <template>
   <div>
-    <Hero />
-    <FAQs />
-    <Features />
     <Navbar />
-    <Footer />
+    <Hero />
+    <Features />
+    <FAQs />
     <MessengerBot />
+    <Footer />
   </div>
 </template>

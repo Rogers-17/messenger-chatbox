@@ -28,9 +28,9 @@ Visit `http://localhost:5173` to see the application.
 src/
 ├── assets/
 |      UI/UX/                   # The designs for the landing page
-│      Iamges/                  # for any image we want to display
+│      Images/                  # for any image we want to display
 ├── components/
-│   ├── Navabr.vue              # Hero section with CTA
+│   ├── Navbar.vue              # Hero section with CTA
 │   ├── Hero.vue                # Hero section with CTA
 │   ├── Features.vue            # Feature highlights
 │   ├── FAQs.vue                # Interactive FAQ accordion
@@ -41,7 +41,7 @@ src/
 └── main.css                    # Global styles
 ```
 
-## Colaboration
+## Collaboration
 
 - **Commit Messages**
 Examples:
