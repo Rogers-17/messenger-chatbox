@@ -44,7 +44,6 @@ const closeMenu = () => {
           <a href="#contact" class="nav-link" @click="closeMenu">Contact</a>
         </li>
       </ul>
-
       <div class="hidden md:flex gap-6">
         <button>
         Sign in
