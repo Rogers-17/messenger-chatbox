@@ -8,7 +8,7 @@
 
 </script>
 <template>
-  <div>
+  <div class="">
     <Navbar />
     <Hero />
     <Features />

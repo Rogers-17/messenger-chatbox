@@ -21,11 +21,11 @@ const closeMenu = () => {
 
 <template>
   <!-- Navbar -->
-  <nav class="navbar bg-amber-500 fixed top-0 left-0 right-0 shadow-md z-1000 transition-colors duration-300">
+  <nav class="navbar fixed top-0 w-full z-50 transition-colors duration-300 shadow-md">
     <!-- navbar Container -->
-    <div class="nav-container max-w-[1200px] mx-auto px-8 py-4 flex justify-between items-center ">
+    <div class="nav-container max-w-[1300px] mx-auto px-6 py-3 flex justify-between items-center backdrop-blur-xl">
       <!-- Logo: brand image on the left side of the navbar -->
-      <div class="nav-logo bg-amber-500">
+      <div class="nav-log">
         <img src="../../public/arro-chat-bot.png" alt="ArRo Chat Bot" class="nav-logo-img w-20 h-20"  />
       </div>
 
@@ -45,6 +45,16 @@ const closeMenu = () => {
         </li>
       </ul>
 
+      <div class="hidden md:flex gap-6">
+        <button>
+        Sign in
+      </button>
+      <button class="bg-blue-500 text-white px-5 py-3 rounded-xl font-semibold">
+        Sign Up
+      </button>
+      </div>
+      
+
       <!-- Navbar menu toggle: hamburger icon shown only on small screens  -->
       <div class="nav-toggle flex flex-col gap-1 cursor-pointer md:hidden" @click="toggleMenu">
         <span class="block w-6 h-[3px] bg-black rounded transition-all duration-300"></span>
@@ -53,6 +63,7 @@ const closeMenu = () => {
       </div>
     </div>
   </nav>
+  <div class="mb-30 md:mb-20 lg:mb-4"></div>
 </template>
 
 <!-- custom scoped styles for the top navigation bar. -->
@@ -98,15 +109,16 @@ const closeMenu = () => {
 }
 
 .nav-link {
-  color: #01050b;
+  color: black;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
   position: relative;
+  font-size: 18px;
 }
 
-.nav-link:hover {
-  color: #f5f7fa;
+.nav-link:hover{
+  color: oklch(62.3% 0.214 259.815);
 }
 
 .nav-link::after {
@@ -116,7 +128,7 @@ const closeMenu = () => {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: rgb(248, 243, 241);
+  background-color: oklch(62.3% 0.214 259.815);
   transition: width 0.3s ease;
 }
 
@@ -139,6 +151,8 @@ const closeMenu = () => {
   border-radius: 3px;
 } */
 
+
+
 @media (max-width: 768px) {
   .nav-toggle {
     display: flex;
@@ -149,11 +163,10 @@ const closeMenu = () => {
     left: -100%;
     top: 100px;
     flex-direction: column;
-    background-color: #a27305;
+    background-color: oklch(80.9% 0.105 251.813);
     width: 100%;
     text-align: center;
     transition: left 0.3s ease;
-    box-shadow: 0 10px 27px rgba(168, 86, 3, 0.529);
     padding: 2rem 0;
     gap: 0;
   }
