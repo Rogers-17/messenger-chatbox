@@ -1,38 +1,52 @@
-# ./
+# ODC Project -- Vue.js Chatbot Landing Page
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern responsive landing page for a chatbot using VUE with a floating chatbot icon 
 
-## Recommended IDE Setup
+## Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Facebook Messenger Integration**: Floating chat widget powered by Facebook Messenger
+- **Responsive Design**: Beautiful UI that works on all devices
 
-## Recommended Browser Setup
+## Quick Start
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Clone the repository
+- Install all dependencies
+- Run the application
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
+git clone https://github.com/messenger-chatbot-vue
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+Visit `http://localhost:5173` to see the application.
 
-```sh
-npm run build
+
+## Project Structure
+
 ```
+src/
+├── assets/
+|      UI/UX/                   # The designs for the landing page
+│      Iamges/                  # for any image we want to display
+├── components/
+│   ├── Navabr.vue              # Hero section with CTA
+│   ├── Hero.vue                # Hero section with CTA
+│   ├── Features.vue            # Feature highlights
+│   ├── FAQs.vue                # Interactive FAQ accordion
+│   ├── Footer.vue              # Footer with links
+│   └── MessengerChat.vue       # Facebook Messenger plugin
+├── App.vue                     # Main component where all the components will be displayed
+├── main.js                     # Entry point
+└── main.css                    # Global styles
+```
+
+## Colaboration
+
+- **Commit Messages**
+Examples:
+``
+git commit -m "Added Navbar"
+git commit -m "Added Footer"
+
+``
