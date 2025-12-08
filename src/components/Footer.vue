@@ -4,9 +4,9 @@
 
 <template>
   <!-- Footer dark background -->
-  <footer id="contact" class="bg-[#1e293b] text-[#e4eaf2] pt-16 px-8 pb-8 ">
+  <footer id="contact" class="bg-[#1e293b] text-[#e4eaf2] pt-16 pb-8">
     <!-- Container footer content -->
-    <div class="max-w-[1200px] mx-auto">
+    <div class="max-w-[1200px] w-full justify-center items-center mx-auto container">
       
       <div class="grid grid-cols-1 gap-8 mb-12 md:grid-cols-[2fr_1fr_1fr_1fr] md:gap-12">
         <!-- Section 1: Brand info and social links -->

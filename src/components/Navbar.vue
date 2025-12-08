@@ -21,9 +21,9 @@ const closeMenu = () => {
 
 <template>
   <!-- Navbar -->
-  <nav class="navbar fixed top-0 w-full z-50 transition-colors duration-300 shadow-md">
+  <nav class="navbar fixed top-0 w-full z-50 transition-colors duration-300 shadow-md backdrop-blur-xl">
     <!-- navbar Container -->
-    <div class="nav-container max-w-[1300px] mx-auto px-6 py-3 flex justify-between items-center backdrop-blur-xl">
+    <div class="nav-container max-w-[1200px] mx-auto px-6 py-3 flex justify-between items-center ">
       <!-- Logo: brand image on the left side of the navbar -->
       <div class="nav-log">
         <img src="../../public/arro-chat-bot.png" alt="ArRo Chat Bot" class="nav-logo-img w-20 h-20"  />
