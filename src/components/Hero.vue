@@ -3,7 +3,7 @@
 </script>
 <template>
     <section id="home" class="relative min-h-screen flex items-center justify-center px-4 py-20 overflow-hidden">
-    <div class="absolute inset-0 overflow-hidden z-10 px-4 py-20 ">
+    <div class="absolute inset-0 overflow-hidden z-10 px-4 py-20 pointer-events-none">
       <div class="absolute -top-40 -right-40 w-80 h-80 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-float"></div>
       <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-float" style="animation-delay: 1s;"></div>
       <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-float" style="animation-delay: 2s;"></div>
